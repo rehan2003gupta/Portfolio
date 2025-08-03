@@ -33,7 +33,7 @@ function Overview() {
         </AnimatedCard>
 
         <AnimatedCard delay={200} direction="bottom">
-          <p className="max-w-4xl mt-5 text-base sm:text-lg text-gray-400 font-medium">
+          <p className="max-w-full mt-5 text-base sm:text-lg text-gray-400 font-medium">
             I am a passionate frontend developer with a strong foundation in
             building responsive, user-friendly web applications using React.js.
             With a keen interest in Data Structures and Algorithms (DSA), I

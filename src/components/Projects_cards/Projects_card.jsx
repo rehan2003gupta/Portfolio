@@ -4,7 +4,7 @@ function Projects_card({ ProjectsImg, description, description1 }) {
   return (
     <div
       id="project"
-      className="p-3 bounce-limited shadow-amber-100 shadow-lg bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460] hover:scale-105 transition-all duration-200 flex flex-col rounded-2xl text-amber-50 w-full max-w-[90vw] sm:max-w-[300px]"
+      className="p-3 bounce-limited shadow-amber-100/40 shadow-lg bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460] hover:scale-105 transition-all duration-200 flex flex-col rounded-2xl text-amber-50 w-full max-w-[90vw] sm:max-w-[300px]"
     >
       {/* Image */}
       <div className="rounded-2xl overflow-hidden h-[180px] w-full">

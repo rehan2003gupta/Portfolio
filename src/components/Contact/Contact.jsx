@@ -4,7 +4,7 @@ import backgroundVideo from "../../Images/4954759_Coll_halloween_Dusty_6144x3456
 
 export default function ContactWrapper() {
   return (
-    <div id="contact" className="relative bg-black w-full min-h-screen flex flex-col px-4 py-10">
+    <div id="contact" className="relative  w-full min-h-screen flex flex-col px-4 py-10">
       {/* Optional Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover -z-10"
