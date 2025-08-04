@@ -8,7 +8,7 @@ import AnimatedCard from '../AnimatedCard/AnimatedCard';
 function Projects() {
   return (
     <>
-      <div id="Projects" className="min-h-[800px] relative pt-16 px-4 sm:px-8 md:px-12">
+      <div id="Projects" className="min-h-[800px] relative pb-[4rem] px-4 sm:px-8 md:px-12">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover -z-10"
           autoPlay

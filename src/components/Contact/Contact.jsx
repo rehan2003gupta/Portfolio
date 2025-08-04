@@ -4,20 +4,10 @@ import backgroundVideo from "../../Images/4954759_Coll_halloween_Dusty_6144x3456
 
 export default function ContactWrapper() {
   return (
-    <div id="contact" className="relative  w-full min-h-screen flex flex-col px-4 py-10">
-      {/* Optional Background Video */}
-      <video
-        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
-        autoPlay
-        muted
-        loop
-        playsInline
-      >
-        <source src={backgroundVideo} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      
-
+    <div
+      id="contact"
+      className="relative bg-black sm:min-w-[600px] w-full min-h-[90vh] sm:min-h-[80vh] md:min-h-[70vh] flex flex-col px-4 py-10 sm:px-6 md:px-10"
+    >
       <h2 className="text-white font-extrabold text-4xl sm:text-5xl md:text-6xl text-center sm:text-left sm:pl-[3rem]">
         Contact me
       </h2>

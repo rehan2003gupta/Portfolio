@@ -11,7 +11,7 @@ function Overview() {
     <>
       <div
         id="about"
-        className="opacity-90 min-h-[100vh] bg-black relative w-full flex flex-col justify-start text-white px-4 sm:px-8"
+        className="opacity-90 min-h-[100vh] pt-10 pb-[6rem] bg-black relative w-full flex flex-col justify-start text-white px-4 sm:px-8"
       >
         <video
           className="absolute top-0 left-0 w-full h-full object-cover -z-10"

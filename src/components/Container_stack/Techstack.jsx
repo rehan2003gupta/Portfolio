@@ -46,7 +46,7 @@ function Techstack() {
   }, []);
 
   return (
-    <div className="min-h-[90vh] pt-10 relative text-4xl sm:text-5xl lg:text-6xl font-extrabold text-amber-50 px-4">
+    <div className="min-h-[90vh]  pt-10 relative text-4xl sm:text-5xl lg:text-6xl font-extrabold text-amber-50 px-4">
       <video
         className="absolute top-0 left-0 w-full h-full object-cover -z-10"
         autoPlay

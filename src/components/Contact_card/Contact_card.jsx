@@ -77,7 +77,7 @@ export default function Contact() {
 
   return (
     <AnimatedCard delay={100} direction="right">
-      <div className="w-full min-w-3xl max-h-[600px] bg-[#0f0c29] flex flex-col lg:flex-row px-4 py-16 items-center justify-center gap-10">
+      <div className="w-full min-w-3xl min-h-[600px] bg-[#0f0c29] flex flex-col lg:flex-row px-4 py-16 items-center justify-center gap-10">
         {/* Form Section */}
         <div className="w-full max-w-[400px] p-6 bg-[#140d33] rounded-xl shadow-xl text-white">
           <h1 className="text-3xl sm:text-4xl font-extrabold mb-8">Contact</h1>
