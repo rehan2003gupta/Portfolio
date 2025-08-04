@@ -11,7 +11,7 @@ import css from "../Animations/css3.json";
 import html from "../../Images/html-removebg-preview.png";
 import canava from "../../Images/canva.png";
 import cplus from "../../Images/cPLUSPLUS.png";
-import backgroundVideo from "../../Images/4954759_Coll_halloween_Dusty_6144x3456.mp4";
+//import backgroundVideo from "../../Images/4954759_Coll_halloween_Dusty_6144x3456.mp4";
 import leetcode from "../../Images/ChatGPT_Image_Aug_2__2025__12_47_13_AM-removebg-preview.png";
 
 function Techstack() {
@@ -46,20 +46,11 @@ function Techstack() {
   }, []);
 
   return (
-    <div className="min-h-[90vh]  pt-10 relative text-4xl sm:text-5xl lg:text-6xl font-extrabold text-amber-50 px-4">
-      <video
-        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
-        autoPlay
-        muted
-        loop
-        playsInline
-      >
-        <source src={backgroundVideo} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    <div style={{ background: "linear-gradient(120deg, #1a2a6c, #162d46, #000000)" }} className="min-h-[50vh]  flex flex-col  pt-10 relative text-4xl sm:text-5xl lg:text-6xl font-extrabold text-amber-50 px-4">
+      
 
       <AnimatedCard delay={100} direction="bottom">
-        <p className="pt-10 text-center sm:text-left">Techstacks</p>
+        <p className="pt-10 px-4 sm:text-left">Techstacks</p>
       </AnimatedCard>
 
       {/* Top Row (Lottie Animated Skills) */}

@@ -3,27 +3,17 @@ import cardImg2 from "../../Images/ChatGPT_Image_Aug_2__2025__12_47_13_AM-remove
 import cardImg3 from "../../Images/4380747-removebg-preview.png";
 import cardImg4 from "../../Images/5925462-removebg-preview.png";
 import AnimatedCard from "../AnimatedCard/AnimatedCard";
-import backgroundVideo from "../../Images/4954759_Coll_halloween_Dusty_6144x3456.mp4";
+//import backgroundVideo from "../../Images/4954759_Coll_halloween_Dusty_6144x3456.mp4";
 import Card from "../Card/Card";
 
 function Overview() {
   return (
     <>
       <div
-        id="about"
-        className="opacity-90 min-h-[100vh] pt-10 pb-[6rem] bg-black relative w-full flex flex-col justify-start text-white px-4 sm:px-8"
-      >
-        <video
-          className="absolute top-0 left-0 w-full h-full object-cover -z-10"
-          autoPlay
-          muted
-          loop
-          playsInline
-        >
-          <source src={backgroundVideo} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-
+  id="about"
+  style={{ background: "linear-gradient(120deg, #1a2a6c, #162d46, #000000)" }}
+  className=" relative z-10 min-h-fit pt-12 pb-20 w-full flex flex-col justify-start text-white px-4 sm:px-8"
+>
         <AnimatedCard delay={200} direction="bottom">
           <p className="text-2xl sm:text-3xl mt-8 font-medium">Introduction</p>
         </AnimatedCard>
@@ -46,16 +36,32 @@ function Overview() {
 
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 place-items-center">
           <AnimatedCard delay={0}>
-            <Card image={cardImg1} description1="Frontend" description2="Developer" />
+            <Card
+              image={cardImg1}
+              description1="Frontend"
+              description2="Developer"
+            />
           </AnimatedCard>
           <AnimatedCard delay={100}>
-            <Card image={cardImg2} description1="DSA" description2="Enthusiast" />
+            <Card
+              image={cardImg2}
+              description1="DSA"
+              description2="Enthusiast"
+            />
           </AnimatedCard>
           <AnimatedCard delay={200}>
-            <Card image={cardImg3} description1="C++" description2="Programmer" />
+            <Card
+              image={cardImg3}
+              description1="C++"
+              description2="Programmer"
+            />
           </AnimatedCard>
           <AnimatedCard delay={300}>
-            <Card image={cardImg4} description1="Content" description2="Creator" />
+            <Card
+              image={cardImg4}
+              description1="Content"
+              description2="Creator"
+            />
           </AnimatedCard>
         </div>
       </div>

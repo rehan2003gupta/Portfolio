@@ -8,23 +8,14 @@ import AnimatedCard from '../AnimatedCard/AnimatedCard';
 function Projects() {
   return (
     <>
-      <div id="Projects" className="min-h-[800px] relative pb-[4rem] px-4 sm:px-8 md:px-12">
-        <video
-          className="absolute top-0 left-0 w-full h-full object-cover -z-10"
-          autoPlay
-          muted
-          loop
-          playsInline
-        >
-          <source src={backgroundVideo} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      <div id="Projects"  className="min-h-[800px]  relative pb-[4rem] px-4 sm:px-8 md:px-12">
+        
 
         <p className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-amber-50 mb-12">
           Projects
         </p>
 
-        <div className="flex flex-wrap justify-center gap-8">
+        <div className="grid grid-cols-2 gap-y-8 md:flex md:flex-wrap md:justify-evenly">
           <AnimatedCard delay={100}>
             <Projects_card
               ProjectsImg={ProjectscardImg1}

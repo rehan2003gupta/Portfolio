@@ -6,7 +6,7 @@ export default function Container() {
     <>
       <div
         id="home"
-        className="bg-cover bg-center bg-no-repeat h-[590px] w-full flex flex-col items-center justify-evenly px-4 sm:px-6 md:px-10"
+        className="bg-cover bg-center bg-no-repeat h-[590px] w-full flex flex-col items-center justify-evenly px-4 py-4 sm:px-6 md:px-10"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <div

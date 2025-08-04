@@ -9,52 +9,55 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <>
+      <Header />
+      <Container />
+      <svg
+        className="absolute blur-2xl z-10"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1000 100"
+      >
+        <defs>
+          <linearGradient id="navyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stopColor="#001631" />
+            <stop offset="50%" stopColor="#00264d" />
+            <stop offset="100%" stopColor="#003d80" />
+          </linearGradient>
+        </defs>
+        <path
+          d="M0 0v4l250 64 125-32 250 64 375-96V0H0z"
+          fill="url(#navyGradient)"
+        />
+      </svg>
+
       <div
-        className="bg-cover  bg-center bg-no-repeat min-h-screen w-full"
-        style={{ backgroundImage: `url(${bgImage})` }}
+        style={{
+          background: "linear-gradient(120deg, #1a2a6c, #162d46, #000000)",
+        }}
       >
-        <Header />
-        <Container />
+        <Overview />
+        <svg
+          className="absolute blur-2xl z-10"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1000 100"
+        >
+          <defs>
+            <linearGradient id="navyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stopColor="#001631" />
+              <stop offset="50%" stopColor="#00264d" />
+              <stop offset="100%" stopColor="#003d80" />
+            </linearGradient>
+          </defs>
+          <path
+            d="M0 0v4l250 64 125-32 250 64 375-96V0H0z"
+            fill="url(#navyGradient)"
+          />
+        </svg>
+        <Techstack />
+        <Projects />
       </div>
-      <svg
-        className="absolute blur-2xl z-10"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1000 100"
-      >
-        <defs>
-          <linearGradient id="navyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#001631" />
-            <stop offset="50%" stopColor="#00264d" />
-            <stop offset="100%" stopColor="#003d80" />
-          </linearGradient>
-        </defs>
-        <path
-          d="M0 0v4l250 64 125-32 250 64 375-96V0H0z"
-          fill="url(#navyGradient)"
-        />
-      </svg>
-      <Overview />
-      <svg
-        className="absolute blur-2xl z-10"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1000 100"
-      >
-        <defs>
-          <linearGradient id="navyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#001631" />
-            <stop offset="50%" stopColor="#00264d" />
-            <stop offset="100%" stopColor="#003d80" />
-          </linearGradient>
-        </defs>
-        <path
-          d="M0 0v4l250 64 125-32 250 64 375-96V0H0z"
-          fill="url(#navyGradient)"
-        />
-      </svg>
-      <Techstack />
-      <Projects />
+
       <Contact />
-      <Footer/>
+      <Footer />
     </>
   );
 };

@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import bgImage from "../../Images/5040007.jpg";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="shadow bg-transparent sticky top-0 z-50">
+    <header className="shadow bg-transparent  sticky top-0 z-50" style={{ backgroundImage: `url(${bgImage})` }}>
       <nav className="bg-none px-4 lg:px-6 py-2.5">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-2xl">
           <Link
